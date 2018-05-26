@@ -6,14 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'geo.help') {
+    if (message.content === 'lhelp') {
     	message.channel.send('I Only got One Command, Cause Im In Development The Command is "geo.bing"');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'geo.bing') {
-    	message.reply('BONG!');
+    if (message.content === 'lbing') {
+    	message.reply('bong :D');
   	}
 });
 
