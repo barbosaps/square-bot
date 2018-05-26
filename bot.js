@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'lhelp') {
-    	message.channel.send('I Only got One Command, Cause Im In Development The Command is "geo.bing"');
+    	message.channel.send('I Only got One Command, Cause Im In Development The Command is "lbing"');
   	}
 });
 
